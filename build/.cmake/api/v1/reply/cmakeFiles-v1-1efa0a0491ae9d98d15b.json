@@ -1,0 +1,1216 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.4/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.4/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/websocketpp/websocketpp-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindBoost.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost/BoostConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost/BoostConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_headers/boost_headers-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_headers/boost_headers-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_headers/boost_headers-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_system/boost_system-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_system/boost_system-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_assert/boost_assert-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_assert/boost_assert-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_config/boost_config-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_config/boost_config-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_config/boost_config-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_assert/boost_assert-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_throw_exception/boost_throw_exception-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_throw_exception/boost_throw_exception-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_throw_exception/boost_throw_exception-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_variant2/boost_variant2-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_variant2/boost_variant2-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_mp11/boost_mp11-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_mp11/boost_mp11-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_mp11/boost_mp11-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_variant2/boost_variant2-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_winapi/boost_winapi-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_winapi/boost_winapi-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_predef/boost_predef-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_predef/boost_predef-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_predef/boost_predef-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_winapi/boost_winapi-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_system/boost_system-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_system/boost_system-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_system/boost_system-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_type_traits/boost_type_traits-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_type_traits/boost_type_traits-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_static_assert/boost_static_assert-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_static_assert/boost_static_assert-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_static_assert/boost_static_assert-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_type_traits/boost_type_traits-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_align/boost_align-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_align/boost_align-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_core/boost_core-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_core/boost_core-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_core/boost_core-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_align/boost_align-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_preprocessor/boost_preprocessor-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_preprocessor/boost_preprocessor-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_preprocessor/boost_preprocessor-targets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_atomic/boost_atomic-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_bind/boost_bind-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_bind/boost_bind-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_bind/boost_bind-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_chrono/boost_chrono-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_chrono/boost_chrono-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_integer/boost_integer-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_integer/boost_integer-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_integer/boost_integer-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_move/boost_move-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_move/boost_move-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_move/boost_move-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_mpl/boost_mpl-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_mpl/boost_mpl-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_utility/boost_utility-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_utility/boost_utility-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_io/boost_io-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_io/boost_io-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_io/boost_io-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_utility/boost_utility-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_mpl/boost_mpl-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_ratio/boost_ratio-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_ratio/boost_ratio-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_ratio/boost_ratio-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_typeof/boost_typeof-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_typeof/boost_typeof-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_typeof/boost_typeof-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_chrono/boost_chrono-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_chrono/boost_chrono-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_chrono/boost_chrono-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_concept_check/boost_concept_check-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_concept_check/boost_concept_check-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_concept_check/boost_concept_check-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container/boost_container-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container/boost_container-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_intrusive/boost_intrusive-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_intrusive/boost_intrusive-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_intrusive/boost_intrusive-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container/boost_container-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container/boost_container-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container/boost_container-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container_hash/boost_container_hash-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container_hash/boost_container_hash-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_describe/boost_describe-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_describe/boost_describe-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_describe/boost_describe-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_container_hash/boost_container_hash-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_date_time/boost_date_time-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_date_time/boost_date_time-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_algorithm/boost_algorithm-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_algorithm/boost_algorithm-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_array/boost_array-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_array/boost_array-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_array/boost_array-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_exception/boost_exception-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_exception/boost_exception-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_smart_ptr/boost_smart_ptr-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_smart_ptr/boost_smart_ptr-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_smart_ptr/boost_smart_ptr-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_tuple/boost_tuple-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_tuple/boost_tuple-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_tuple/boost_tuple-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_exception/boost_exception-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_function/boost_function-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_function/boost_function-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_function/boost_function-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_iterator/boost_iterator-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_iterator/boost_iterator-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_detail/boost_detail-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_detail/boost_detail-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_detail/boost_detail-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_function_types/boost_function_types-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_function_types/boost_function_types-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_function_types/boost_function_types-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_fusion/boost_fusion-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_fusion/boost_fusion-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_functional/boost_functional-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_functional/boost_functional-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_functional/boost_functional-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_fusion/boost_fusion-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_optional/boost_optional-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_optional/boost_optional-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_optional/boost_optional-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_iterator/boost_iterator-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_range/boost_range-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_range/boost_range-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_conversion/boost_conversion-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_conversion/boost_conversion-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_conversion/boost_conversion-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_regex/boost_regex-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_regex/boost_regex-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_regex/boost_regex-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_regex/boost_regex-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_regex/boost_regex-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_range/boost_range-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_unordered/boost_unordered-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_unordered/boost_unordered-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_unordered/boost_unordered-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_algorithm/boost_algorithm-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_lexical_cast/boost_lexical_cast-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_lexical_cast/boost_lexical_cast-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_lexical_cast/boost_lexical_cast-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_numeric_conversion/boost_numeric_conversion-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_numeric_conversion/boost_numeric_conversion-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_numeric_conversion/boost_numeric_conversion-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_tokenizer/boost_tokenizer-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_tokenizer/boost_tokenizer-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_tokenizer/boost_tokenizer-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_date_time/boost_date_time-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_date_time/boost_date_time-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_date_time/boost_date_time-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost_thread/boost_thread-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/rapidjson/RapidJSONConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/rapidjson/RapidJSONConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/curl/CURLConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/curl/CURLConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/curl/CURLTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/curl/CURLTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/aakas/vcpkg/installed/x64-windows/share/curl/CURLTargets-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "D:/projects/OEMS_GoQuant/build",
+		"source" : "D:/projects/OEMS_GoQuant"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

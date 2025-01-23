@@ -4,40 +4,51 @@ project(DeribitOrderManagement)
 # Set C++ Standard
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+cmake_policy(SET CMP0167 NEW)
 
 # Set output directory for binaries
+
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-# If using vcpkg, include the toolchain file (uncomment if applicable)
+# If using vcpkg, include the toolchain file
 set(CMAKE_TOOLCHAIN_FILE "C:/Users/aakas/vcpkg/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
 
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type (Debug, Release, RelWithDebInfo, MinSizeRel)" FORCE)
+endif()
+# Add vcpkg prefix path
+set(CMAKE_PREFIX_PATH "C:/Users/aakas/vcpkg/installed/x64-windows" ${CMAKE_PREFIX_PATH})
+
 # Find required packages
+find_package(websocketpp REQUIRED CONFIG)
+find_package(Boost REQUIRED COMPONENTS system thread)
+find_package(RapidJSON REQUIRED)
 find_package(CURL REQUIRED)
-find_package(websocketpp REQUIRED CONFIG)  # Ensure CONFIG mode is used
-find_package(Boost REQUIRED COMPONENTS system thread)  # Ensure Boost::system and Boost::thread are available
-find_package(RapidJSON REQUIRED) 
 
-# Include directories (limit scope to target)
-add_executable(deribit_order_management)
+# Debugging messages for dependencies
+message(STATUS "Boost found: ${Boost_FOUND}")
+message(STATUS "Boost include dirs: ${Boost_INCLUDE_DIRS}")
+message(STATUS "CURL found: ${CURL_FOUND}")
+message(STATUS "CURL include dirs: ${CURL_INCLUDE_DIRS}")
+message(STATUS "websocketpp found: ${websocketpp_FOUND}")
 
-target_include_directories(deribit_order_management PRIVATE 
-    ${PROJECT_SOURCE_DIR}/include  # Your project's include directory
-    ${Boost_INCLUDE_DIRS}          # Boost headers
-    ${CURL_INCLUDE_DIRS}           # cURL include directory
+# Include directories
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
+# Add the executable and source files
+add_executable(deribit_order_management
+    src/main.cpp
+    src/order_manager.cpp
+    src/utils.cpp
+    src/websocket_handler.cpp
 )
-
-# Source files
-file(GLOB SOURCES "src/*.cpp")  # Include all .cpp files in src/
-
-# Define executable with sources
-target_sources(deribit_order_management PRIVATE ${SOURCES})
 
 # Link libraries
 target_link_libraries(deribit_order_management PRIVATE 
-    CURL::libcurl              # Link cURL library
-    websocketpp::websocketpp   # Link websocketpp
-    Boost::system              # Link Boost::system
-    Boost::thread              # Link Boost::thread
+    CURL::libcurl              # cURL library
+    websocketpp::websocketpp   # websocketpp
+    Boost::system              # Boost::system
+    Boost::thread              # Boost::thread
 )
 
 # Compiler options for better debugging and warnings

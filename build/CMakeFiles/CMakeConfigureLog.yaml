@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.3.1+2badb37d1 for .NET Framework
-      Build started 22-01-2025 15:09:12.
+      Build started 24-01-2025 00:07:05.
       Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -59,7 +59,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:03.21
+      Time Elapsed 00:00:02.57
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -85,7 +85,7 @@ events:
       The output was:
       0
       MSBuild version 17.3.1+2badb37d1 for .NET Framework
-      Build started 22-01-2025 15:09:15.
+      Build started 24-01-2025 00:07:08.
       Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -120,7 +120,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.17
+      Time Elapsed 00:00:01.64
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -139,8 +139,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-k5oi5h"
-      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-k5oi5h"
+      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-aji8dp"
+      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-aji8dp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -153,37 +153,37 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-k5oi5h'
+        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-aji8dp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef0b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_20ccd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.3.1+2badb37d1 for .NET Framework
-        Build started 22-01-2025 15:09:18.
-        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5oi5h\\cmTC_ef0b1.vcxproj" on node 1 (default targets).
+        Build started 24-01-2025 00:07:10.
+        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aji8dp\\cmTC_20ccd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ef0b1.dir\\Debug\\".
-          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5oi5h\\Debug\\".
-          Creating directory "cmTC_ef0b1.dir\\Debug\\cmTC_ef0b1.tlog\\".
+          Creating directory "cmTC_20ccd.dir\\Debug\\".
+          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aji8dp\\Debug\\".
+          Creating directory "cmTC_20ccd.dir\\Debug\\cmTC_20ccd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ef0b1.dir\\Debug\\cmTC_ef0b1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_20ccd.dir\\Debug\\cmTC_20ccd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef0b1.dir\\Debug\\\\" /Fd"cmTC_ef0b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20ccd.dir\\Debug\\\\" /Fd"cmTC_20ccd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef0b1.dir\\Debug\\\\" /Fd"cmTC_ef0b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20ccd.dir\\Debug\\\\" /Fd"cmTC_20ccd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5oi5h\\Debug\\cmTC_ef0b1.exe" /INCREMENTAL /ILK:"cmTC_ef0b1.dir\\Debug\\cmTC_ef0b1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-k5oi5h/Debug/cmTC_ef0b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-k5oi5h/Debug/cmTC_ef0b1.lib" /MACHINE:X64  /machine:x64 cmTC_ef0b1.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_ef0b1.vcxproj -> D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5oi5h\\Debug\\cmTC_ef0b1.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aji8dp\\Debug\\cmTC_20ccd.exe" /INCREMENTAL /ILK:"cmTC_20ccd.dir\\Debug\\cmTC_20ccd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-aji8dp/Debug/cmTC_20ccd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-aji8dp/Debug/cmTC_20ccd.lib" /MACHINE:X64  /machine:x64 cmTC_20ccd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_20ccd.vcxproj -> D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aji8dp\\Debug\\cmTC_20ccd.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_ef0b1.dir\\Debug\\cmTC_ef0b1.tlog\\unsuccessfulbuild".
-          Touching "cmTC_ef0b1.dir\\Debug\\cmTC_ef0b1.tlog\\cmTC_ef0b1.lastbuildstate".
-        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k5oi5h\\cmTC_ef0b1.vcxproj" (default targets).
+          Deleting file "cmTC_20ccd.dir\\Debug\\cmTC_20ccd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_20ccd.dir\\Debug\\cmTC_20ccd.tlog\\cmTC_20ccd.lastbuildstate".
+        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aji8dp\\cmTC_20ccd.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.72
+        Time Elapsed 00:00:00.63
         
       exitCode: 0
   -
@@ -223,8 +223,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-rtqdpz"
-      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-rtqdpz"
+      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-xdkyhv"
+      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-xdkyhv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -238,37 +238,37 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-rtqdpz'
+        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-xdkyhv'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4978d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9e8a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.3.1+2badb37d1 for .NET Framework
-        Build started 22-01-2025 15:09:19.
-        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rtqdpz\\cmTC_4978d.vcxproj" on node 1 (default targets).
+        Build started 24-01-2025 00:07:11.
+        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdkyhv\\cmTC_9e8a9.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_4978d.dir\\Debug\\".
-          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rtqdpz\\Debug\\".
-          Creating directory "cmTC_4978d.dir\\Debug\\cmTC_4978d.tlog\\".
+          Creating directory "cmTC_9e8a9.dir\\Debug\\".
+          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdkyhv\\Debug\\".
+          Creating directory "cmTC_9e8a9.dir\\Debug\\cmTC_9e8a9.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4978d.dir\\Debug\\cmTC_4978d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_9e8a9.dir\\Debug\\cmTC_9e8a9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4978d.dir\\Debug\\\\" /Fd"cmTC_4978d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9e8a9.dir\\Debug\\\\" /Fd"cmTC_9e8a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4978d.dir\\Debug\\\\" /Fd"cmTC_4978d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9e8a9.dir\\Debug\\\\" /Fd"cmTC_9e8a9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rtqdpz\\Debug\\cmTC_4978d.exe" /INCREMENTAL /ILK:"cmTC_4978d.dir\\Debug\\cmTC_4978d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-rtqdpz/Debug/cmTC_4978d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-rtqdpz/Debug/cmTC_4978d.lib" /MACHINE:X64  /machine:x64 cmTC_4978d.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4978d.vcxproj -> D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rtqdpz\\Debug\\cmTC_4978d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdkyhv\\Debug\\cmTC_9e8a9.exe" /INCREMENTAL /ILK:"cmTC_9e8a9.dir\\Debug\\cmTC_9e8a9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-xdkyhv/Debug/cmTC_9e8a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-xdkyhv/Debug/cmTC_9e8a9.lib" /MACHINE:X64  /machine:x64 cmTC_9e8a9.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_9e8a9.vcxproj -> D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdkyhv\\Debug\\cmTC_9e8a9.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4978d.dir\\Debug\\cmTC_4978d.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4978d.dir\\Debug\\cmTC_4978d.tlog\\cmTC_4978d.lastbuildstate".
-        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rtqdpz\\cmTC_4978d.vcxproj" (default targets).
+          Deleting file "cmTC_9e8a9.dir\\Debug\\cmTC_9e8a9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9e8a9.dir\\Debug\\cmTC_9e8a9.tlog\\cmTC_9e8a9.lastbuildstate".
+        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xdkyhv\\cmTC_9e8a9.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.74
+        Time Elapsed 00:00:00.67
         
       exitCode: 0
   -
@@ -320,10 +320,10 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindBoost.cmake:610 (find_package)"
       - "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
       - "C:/Users/aakas/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     directories:
-      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-w8oqkj"
-      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-w8oqkj"
+      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-teu968"
+      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-teu968"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -336,37 +336,37 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-w8oqkj'
+        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-teu968'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15143.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e973a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.3.1+2badb37d1 for .NET Framework
-        Build started 22-01-2025 15:09:21.
-        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\cmTC_15143.vcxproj" on node 1 (default targets).
+        Build started 24-01-2025 00:07:13.
+        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\cmTC_e973a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_15143.dir\\Debug\\".
-          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\Debug\\".
-          Creating directory "cmTC_15143.dir\\Debug\\cmTC_15143.tlog\\".
+          Creating directory "cmTC_e973a.dir\\Debug\\".
+          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\Debug\\".
+          Creating directory "cmTC_e973a.dir\\Debug\\cmTC_e973a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_15143.dir\\Debug\\cmTC_15143.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_e973a.dir\\Debug\\cmTC_e973a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15143.dir\\Debug\\\\" /Fd"cmTC_15143.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e973a.dir\\Debug\\\\" /Fd"cmTC_e973a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15143.dir\\Debug\\\\" /Fd"cmTC_15143.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\src.c"
-        D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\cmTC_15143.vcxproj]
-        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\cmTC_15143.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e973a.dir\\Debug\\\\" /Fd"cmTC_e973a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\src.c"
+        D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\cmTC_e973a.vcxproj]
+        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\cmTC_e973a.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\cmTC_15143.vcxproj" (default target) (1) ->
+        "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\cmTC_e973a.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w8oqkj\\cmTC_15143.vcxproj]
+          D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-teu968\\cmTC_e973a.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.50
+        Time Elapsed 00:00:00.45
         
       exitCode: 1
   -
@@ -389,10 +389,10 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindBoost.cmake:610 (find_package)"
       - "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
       - "C:/Users/aakas/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     directories:
-      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-2jszh1"
-      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-2jszh1"
+      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-sxdiyw"
+      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-sxdiyw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -405,39 +405,39 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-2jszh1'
+        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-sxdiyw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_837a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e7bac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.3.1+2badb37d1 for .NET Framework
-        Build started 22-01-2025 15:09:21.
-        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\cmTC_837a5.vcxproj" on node 1 (default targets).
+        Build started 24-01-2025 00:07:14.
+        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\cmTC_e7bac.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_837a5.dir\\Debug\\".
-          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\Debug\\".
-          Creating directory "cmTC_837a5.dir\\Debug\\cmTC_837a5.tlog\\".
+          Creating directory "cmTC_e7bac.dir\\Debug\\".
+          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\Debug\\".
+          Creating directory "cmTC_e7bac.dir\\Debug\\cmTC_e7bac.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_837a5.dir\\Debug\\cmTC_837a5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_e7bac.dir\\Debug\\cmTC_e7bac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_837a5.dir\\Debug\\\\" /Fd"cmTC_837a5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7bac.dir\\Debug\\\\" /Fd"cmTC_e7bac.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_837a5.dir\\Debug\\\\" /Fd"cmTC_837a5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7bac.dir\\Debug\\\\" /Fd"cmTC_e7bac.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\Debug\\cmTC_837a5.exe" /INCREMENTAL /ILK:"cmTC_837a5.dir\\Debug\\cmTC_837a5.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-2jszh1/Debug/cmTC_837a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-2jszh1/Debug/cmTC_837a5.lib" /MACHINE:X64  /machine:x64 cmTC_837a5.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\cmTC_837a5.vcxproj]
-        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\cmTC_837a5.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\Debug\\cmTC_e7bac.exe" /INCREMENTAL /ILK:"cmTC_e7bac.dir\\Debug\\cmTC_e7bac.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-sxdiyw/Debug/cmTC_e7bac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-sxdiyw/Debug/cmTC_e7bac.lib" /MACHINE:X64  /machine:x64 cmTC_e7bac.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\cmTC_e7bac.vcxproj]
+        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\cmTC_e7bac.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\cmTC_837a5.vcxproj" (default target) (1) ->
+        "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\cmTC_e7bac.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jszh1\\cmTC_837a5.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sxdiyw\\cmTC_e7bac.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.81
+        Time Elapsed 00:00:00.84
         
       exitCode: 1
   -
@@ -460,10 +460,10 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindBoost.cmake:610 (find_package)"
       - "C:/Users/aakas/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:3 (_find_package)"
       - "C:/Users/aakas/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
-      - "CMakeLists.txt:17 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
     directories:
-      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-95ulyp"
-      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-95ulyp"
+      source: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-l5mqts"
+      binary: "D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-l5mqts"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -476,39 +476,39 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-95ulyp'
+        Change Dir: 'D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-l5mqts'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6cdd9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7ad54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.3.1+2badb37d1 for .NET Framework
-        Build started 22-01-2025 15:09:23.
-        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\cmTC_6cdd9.vcxproj" on node 1 (default targets).
+        Build started 24-01-2025 00:07:15.
+        Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\cmTC_7ad54.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6cdd9.dir\\Debug\\".
-          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\Debug\\".
-          Creating directory "cmTC_6cdd9.dir\\Debug\\cmTC_6cdd9.tlog\\".
+          Creating directory "cmTC_7ad54.dir\\Debug\\".
+          Creating directory "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\Debug\\".
+          Creating directory "cmTC_7ad54.dir\\Debug\\cmTC_7ad54.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6cdd9.dir\\Debug\\cmTC_6cdd9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_7ad54.dir\\Debug\\cmTC_7ad54.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6cdd9.dir\\Debug\\\\" /Fd"cmTC_6cdd9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ad54.dir\\Debug\\\\" /Fd"cmTC_7ad54.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.33.31630 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6cdd9.dir\\Debug\\\\" /Fd"cmTC_6cdd9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ad54.dir\\Debug\\\\" /Fd"cmTC_7ad54.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\Debug\\cmTC_6cdd9.exe" /INCREMENTAL /ILK:"cmTC_6cdd9.dir\\Debug\\cmTC_6cdd9.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-95ulyp/Debug/cmTC_6cdd9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-95ulyp/Debug/cmTC_6cdd9.lib" /MACHINE:X64  /machine:x64 cmTC_6cdd9.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\cmTC_6cdd9.vcxproj]
-        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\cmTC_6cdd9.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\Debug\\cmTC_7ad54.exe" /INCREMENTAL /ILK:"cmTC_7ad54.dir\\Debug\\cmTC_7ad54.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-l5mqts/Debug/cmTC_7ad54.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/OEMS_GoQuant/build/CMakeFiles/CMakeScratch/TryCompile-l5mqts/Debug/cmTC_7ad54.lib" /MACHINE:X64  /machine:x64 cmTC_7ad54.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\cmTC_7ad54.vcxproj]
+        Done Building Project "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\cmTC_7ad54.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\cmTC_6cdd9.vcxproj" (default target) (1) ->
+        "D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\cmTC_7ad54.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95ulyp\\cmTC_6cdd9.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\projects\\OEMS_GoQuant\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l5mqts\\cmTC_7ad54.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.18
+        Time Elapsed 00:00:00.71
         
       exitCode: 1
 ...

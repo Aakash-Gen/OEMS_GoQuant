@@ -102,7 +102,6 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_THREAD_USE_DLL;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -163,7 +162,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_THREAD_USE_DLL;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -226,7 +224,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_THREAD_USE_DLL;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -290,7 +287,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
-      <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BOOST_THREAD_NO_LIB;BOOST_THREAD_DYN_LINK;BOOST_THREAD_USE_DLL;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_DYN_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_DYN_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_DYN_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_DYN_LINK;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
