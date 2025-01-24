@@ -10,4 +10,6 @@ public:
     std::string modifyOrder(const std::string& order_id, double new_amount, double new_price);
     std::string getOrderBook(const std::string& symbol);
     std::string getCurrentPositions(const std::string& currency);
+    std::string getInstruments();
+    std::string getInstrumentOrderbook(const std::string& instrumentName);
 };
