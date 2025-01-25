@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 cmake_policy(SET CMP0167 NEW)
 
-# Set output directory for binaries
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
@@ -25,7 +24,6 @@ find_package(Boost REQUIRED COMPONENTS system thread)
 find_package(RapidJSON REQUIRED)
 find_package(CURL REQUIRED)
 
-# Debugging messages for dependencies
 message(STATUS "Boost found: ${Boost_FOUND}")
 message(STATUS "Boost include dirs: ${Boost_INCLUDE_DIRS}")
 message(STATUS "CURL found: ${CURL_FOUND}")
@@ -45,16 +43,14 @@ add_executable(deribit_order_management
 
 # Link libraries
 target_link_libraries(deribit_order_management PRIVATE 
-    CURL::libcurl              # cURL library
-    websocketpp::websocketpp   # websocketpp
-    Boost::system              # Boost::system
-    Boost::thread              # Boost::thread
+    CURL::libcurl             
+    websocketpp::websocketpp  
+    Boost::system             
+    Boost::thread             
 )
 
-# Compiler options for better debugging and warnings
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
     target_compile_options(deribit_order_management PRIVATE -Wall -Wextra -pedantic)
 endif()
 
-# Print message to confirm successful configuration
 message(STATUS "DeribitOrderManagement project configured successfully!")

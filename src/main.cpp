@@ -1,13 +1,76 @@
 #include <iostream>
+#include <thread>
+#include <atomic>
+#include <chrono>
 #include <iomanip>
 #include <string>
+#include <limits>
 #include <stdexcept>
 #include "rapidjson/document.h"
 #include <rapidjson/prettywriter.h>
 #include <rapidjson/stringbuffer.h>
+#include <rapidjson/error/en.h>
 #include "utils.hpp"
 #include "order_manager.hpp"
+#include "websocket_handler.hpp"
 
+void websocketServerControl(WebSocketHandler& wsHandler, std::atomic<bool>& isRunning, std::atomic<bool>& isBroadcasting) {
+    std::cout << "\nWebSocket Server Control Commands:\n";
+    std::cout << " - start <port>: Start the WebSocket server on the specified port\n";
+    std::cout << " - stop: Stop the WebSocket server\n";
+    std::cout << " - broadcast: Start broadcasting order book updates\n";
+    std::cout << " - stop_broadcast: Stop broadcasting updates\n";
+    std::cout << " - back: Return to the main menu\n";
+
+    std::string command;
+    while (true) {
+        std::cout << "\nEnter WebSocket command: ";
+        std::cin >> command;
+
+        if (command == "start") {
+            int port;
+            std::cin >> port;
+            if (isRunning) {
+                std::cout << "WebSocket server is already running.\n";
+            } else {
+                wsHandler.startServer(port);
+                isRunning = true;
+                std::cout << "WebSocket server started on port " << port << ".\n";
+            }
+        } else if (command == "stop") {
+            if (!isRunning) {
+                std::cout << "WebSocket server is not running.\n";
+            } else {
+                wsHandler.stopServer();
+                isRunning = false;
+                std::cout << "WebSocket server stopped.\n";
+            }
+        } else if (command == "broadcast") {
+            if (isBroadcasting) {
+                std::cout << "Broadcasting is already active.\n";
+            } else {
+                isBroadcasting = true;
+                std::thread broadcasterThread([&]() {
+                    wsHandler.broadcastOrderBookUpdates(isBroadcasting);
+                    isBroadcasting = false; 
+                });
+                broadcasterThread.detach();
+                std::cout << "Broadcasting started.\n";
+            }
+        } else if (command == "stop_broadcast") {
+            if (!isBroadcasting) {
+                std::cout << "Broadcasting is not active.\n";
+            } else {
+                isBroadcasting = false;
+                std::cout << "Broadcasting has stopped.\n";
+            }
+        } else if (command == "back") {
+            break; 
+        } else {
+            std::cout << "Invalid command. Please try again.\n";
+        }
+    }
+}
 
 void prettyPrintJSON(const std::string& rawJson) {
     rapidjson::Document document;
@@ -64,7 +127,7 @@ void modifyOrder(OrderManager& orderManager) {
     std::string modifyResponse = orderManager.modifyOrder(orderId, newQuantity, newPrice);
 
     prettyPrintJSON(modifyResponse);
-    UtilityNamespace::logMessage("Order modified successfully: " + modifyResponse);
+    UtilityNamespace::logMessage("Order modified successfully");
     // std::cout << "Modify Response: " << modifyResponse << std::endl;
 }
 
@@ -75,8 +138,9 @@ void cancelOrder(OrderManager& orderManager) {
     std::cin >> orderId;
 
     std::string cancelResponse = orderManager.cancelOrder(orderId);
-    UtilityNamespace::logMessage("Order cancelled successfully: " + cancelResponse);
-    std::cout << "Cancel Response: " << cancelResponse << std::endl;
+    UtilityNamespace::logMessage("Order cancelled successfully");
+    std::cout << "Cancel Response: " << std::endl;
+    prettyPrintJSON(cancelResponse);
 }
 
 void fetchCurrentPositions(OrderManager& orderManager) {
@@ -199,6 +263,29 @@ void fetchOrderBook(OrderManager& orderManager) {
     UtilityNamespace::logMessage("Order book fetched successfully.");
 }
 
+void printInstruments(OrderManager& orderManager) {
+    std::string instruments = orderManager.getInstruments();
+    // std::cout << "Instruments JSON: " << instruments << std::endl;
+
+    rapidjson::Document document;
+    rapidjson::ParseResult parseResult = document.Parse(instruments.c_str());
+    if (!parseResult) {
+        std::cerr << "JSON parse error: " << rapidjson::GetParseError_En(parseResult.Code())
+                  << " at offset " << parseResult.Offset() << std::endl;
+        return;
+    }
+
+    if (document.HasMember("result") && document["result"].IsArray()) {
+        for (const auto& instrument : document["result"].GetArray()) {
+            if (instrument.IsObject() && instrument.HasMember("instrument_name")) {
+                std::string instrumentName = instrument["instrument_name"].GetString();
+                std::cout << instrumentName << std::endl;
+            }
+        }
+    } else {
+        std::cerr << "Error: Invalid JSON structure." << std::endl;
+    }
+}
 
 
 int main() {
@@ -212,6 +299,9 @@ int main() {
         UtilityNamespace::logMessage("Successfully authenticated. Access token acquired.");
 
         OrderManager orderManager;
+        WebSocketHandler wsHandler;
+        std::atomic<bool> isRunning(false);
+        std::atomic<bool> isBroadcasting(false);
 
         while (true) {
             std::cout << "\nChoose an action:\n";
@@ -220,13 +310,22 @@ int main() {
             std::cout << "3. Cancel Order\n";
             std::cout << "4. Fetch Current Positions\n";
             std::cout << "5. Fetch Order Book\n";
-            std::cout << "6. Fetch Instruments\n";
-            std::cout << "7. Fetch Instrument Order Book\n";
+            std::cout << "6. Get instruments\n";
+            std::cout << "7. WebSocket Server Control\n";
             std::cout << "8. Exit\n";
             std::cout << "Enter your choice: ";
 
             int choice;
             std::cin >> choice;
+
+            if (std::cin.fail()) {
+                std::cin.clear();
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                std::cout << "Invalid input. Please enter a number between 1 and 8.\n";
+                continue;
+            }
+
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
             switch (choice) {
                 case 1:
@@ -245,10 +344,22 @@ int main() {
                     fetchOrderBook(orderManager);
                     break;
                 case 6:
+                    printInstruments(orderManager);
+                    break;
+                case 7:
+                    websocketServerControl(wsHandler, isRunning, isBroadcasting);
+                    break;
+                case 8:
+                    if (isRunning) {
+                        wsHandler.stopServer();
+                    }
+                    if (isBroadcasting) {
+                        isBroadcasting = false; 
+                    }
                     std::cout << "Exiting program." << std::endl;
                     return 0;
                 default:
-                    std::cout << "Invalid choice. Please try again." << std::endl;
+                    std::cout << "Invalid choice. Please enter a number between 1 and 8.\n";
                     break;
             }
         }

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/Debug/deribit_order_management.exe"
+			"path" : "bin/Release/deribit_order_management.exe"
 		},
 		{
-			"path" : "bin/Debug/deribit_order_management.pdb"
+			"path" : "bin/Release/deribit_order_management.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -50,7 +50,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 39,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -62,13 +62,13 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 47,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 26,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
@@ -100,7 +100,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 24,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
@@ -288,7 +288,7 @@
 			{
 				"command" : 9,
 				"file" : 1,
-				"line" : 36,
+				"line" : 34,
 				"parent" : 0
 			}
 		]
@@ -299,7 +299,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				}
 			],
 			"defines" : 
@@ -400,26 +400,26 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_thread-vc143-mt-gd-x64-1_86.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\boost_thread-vc143-mt-x64-1_86.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 9,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\libcurl-d.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\libcurl.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 26,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_atomic-vc143-mt-gd-x64-1_86.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\boost_atomic-vc143-mt-x64-1_86.lib",
 				"role" : "libraries"
 			},
 			{
@@ -429,27 +429,27 @@
 			},
 			{
 				"backtrace" : 26,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_chrono-vc143-mt-gd-x64-1_86.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\boost_chrono-vc143-mt-x64-1_86.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_system-vc143-mt-gd-x64-1_86.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\boost_system-vc143-mt-x64-1_86.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 26,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_date_time-vc143-mt-gd-x64-1_86.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\boost_date_time-vc143-mt-x64-1_86.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 26,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_container-vc143-mt-gd-x64-1_86.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\boost_container-vc143-mt-x64-1_86.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 44,
-				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\debug\\lib\\boost_regex-vc143-mt-gd-x64-1_86.lib",
+				"fragment" : "C:\\Users\\aakas\\vcpkg\\installed\\x64-windows\\lib\\boost_regex-vc143-mt-x64-1_86.lib",
 				"role" : "libraries"
 			},
 			{
