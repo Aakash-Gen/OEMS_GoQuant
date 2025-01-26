@@ -7,14 +7,14 @@
 
 
 
-std::string OrderManager::placeOrder(const std::string& instrumentName, double quantity, double price, const std::string& orderType) {
+std::string OrderManager::placeOrder(const std::string& instrumentName,const std::string& type, double quantity, double price, const std::string& orderType) {
     try 
     {
         std::string accessToken = UtilityNamespace::authenticate();
-        std::string url = "https://test.deribit.com/api/v2/private/buy";
-        std::string payload = "{\"jsonrpc\":\"2.0\", \"id\":1, \"method\":\"private/buy\", \"params\":{\"instrument_name\":\"" 
-                          + instrumentName + "\", \"amount\":" + std::to_string(quantity) + ", \"price\":" 
-                          + std::to_string(price) + ", \"type\":\"" + orderType + "\"}}";
+        std::string url = "https://test.deribit.com/api/v2/private/" + type;
+        std::string payload = "{\"jsonrpc\":\"2.0\", \"id\":1, \"method\":\"private/" + type + "\", \"params\":{\"instrument_name\":\"" 
+                              + instrumentName + "\", \"amount\":" + std::to_string(quantity) + ", \"price\":" 
+                              + std::to_string(price) + ", \"type\":\"" + orderType + "\"}}";
         std::string authHeader = "Authorization: Bearer " + accessToken;
         std::string response = UtilityNamespace::sendPostRequestWithAuth(url, payload, authHeader);
         return response;

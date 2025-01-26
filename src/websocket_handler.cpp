@@ -74,7 +74,13 @@ void WebSocketHandler::run(uint16_t port) {
 }
 
 void WebSocketHandler::handleMessage(connection_hdl hdl, server::message_ptr msg) {
+    // On the server side
+    auto startTime = std::chrono::high_resolution_clock::now();
+
     std::string payload = msg->get_payload();
+    auto endTime = std::chrono::high_resolution_clock::now();
+    auto propagationDelay = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
+    std::cout << "WebSocket Message Propagation Delay: " << propagationDelay << "ms" << std::endl;
     rapidjson::Document doc;
     doc.Parse(payload.c_str());
 

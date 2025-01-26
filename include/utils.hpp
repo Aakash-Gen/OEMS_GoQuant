@@ -10,4 +10,3 @@ namespace UtilityNamespace {
     std::string sendGetRequest(const std::string& url);
     void logMessage(const std::string& message);
 }
-

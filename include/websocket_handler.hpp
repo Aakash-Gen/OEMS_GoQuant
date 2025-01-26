@@ -33,4 +33,3 @@ private:
     void handleClose(connection_hdl hdl);
     std::string getOrderBook(const std::string& symbol);
 };
-

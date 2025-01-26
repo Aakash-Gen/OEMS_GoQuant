@@ -92,17 +92,48 @@ void placeOrder(OrderManager& orderManager) {
     std::string instrumentName;
     double quantity, price;
     std::string orderType;
+    std::string type;
 
+    std::cout << "Enter order type (buy/sell): ";
+    std::cin >> type;
     std::cout << "Enter instrument name: ";
     std::cin >> instrumentName;
     std::cout << "Enter quantity: ";
     std::cin >> quantity;
-    std::cout << "Enter price: ";
-    std::cin >> price;
+    // std::cout << "Enter price: ";
+    // std::cin >> price;
     std::cout << "Enter order type (limit/market): ";
     std::cin >> orderType;
+    auto startTime1 = std::chrono::high_resolution_clock::now();
+    if (orderType == "market") {
+        auto startTime = std::chrono::high_resolution_clock::now();
+        std::string orderBookJson = orderManager.getOrderBook(instrumentName);
+        auto endTime = std::chrono::high_resolution_clock::now();
+        auto marketDataProcessingLatency = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
+        std::cout << "Market Data Processing Latency: " << marketDataProcessingLatency << "ms" << std::endl;
 
-    std::string orderResponse = orderManager.placeOrder(instrumentName, quantity, price, orderType);
+        rapidjson::Document orderBook;
+        orderBook.Parse(orderBookJson.c_str());
+
+        if (orderBook.HasParseError() || !orderBook["result"].HasMember("bids") || !orderBook["result"].HasMember("asks")) {
+            throw std::runtime_error("Failed to fetch order book or invalid order book format.");
+        }
+
+        if (type == "buy") {
+            price = orderBook["result"]["asks"].GetArray()[0].GetArray()[0].GetDouble();
+        } else if (type == "sell") {
+            price = orderBook["result"]["bids"].GetArray()[0].GetArray()[0].GetDouble();
+        }
+
+        std::cout << "Market order price fetched from order book: " << price << std::endl;
+    } else {
+        std::cout << "Enter price: ";
+        std::cin >> price;
+    }
+    auto start = std::chrono::high_resolution_clock::now();
+    std::string orderResponse = orderManager.placeOrder(instrumentName,type, quantity, price, orderType);
+    auto end = std::chrono::high_resolution_clock::now();auto latency = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+    std::cout << "Order Placement Latency: " << latency << " ms\n";
     rapidjson::Document jsonResponse;
     jsonResponse.Parse(orderResponse.c_str());
     if (jsonResponse.HasParseError() || !jsonResponse.HasMember("result") || !jsonResponse["result"].HasMember("order")) {
@@ -111,6 +142,9 @@ void placeOrder(OrderManager& orderManager) {
     std::string orderId = jsonResponse["result"]["order"]["order_id"].GetString();
     UtilityNamespace::logMessage("Order placed successfully: " + orderId);
     std::cout << "Order Id: " << orderId << std::endl;
+    auto endTime1 = std::chrono::high_resolution_clock::now();
+    auto EndToEnd_Latency = std::chrono::duration_cast<std::chrono::milliseconds>(endTime1 - startTime1).count();
+    std::cout << "End to End Trading Loop Latency: " << EndToEnd_Latency << "ms" << std::endl;
 }
 
 void modifyOrder(OrderManager& orderManager) {
@@ -213,8 +247,11 @@ void fetchOrderBook(OrderManager& orderManager) {
     std::cin >> instrumentName;
 
     std::cout << "Fetching order book..." << std::endl;
+    auto startTime = std::chrono::high_resolution_clock::now();
     std::string orderBook = orderManager.getOrderBook(instrumentName);
-
+    // auto endTime = std::chrono::high_resolution_clock::now();
+    // auto marketDataProcessingLatency = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
+    // std::cout << "Market Data Processing Latency: " << marketDataProcessingLatency << "ms" << std::endl;
     if (orderBook.empty()) {
         UtilityNamespace::logMessage("Order book for " + instrumentName + " is empty.");
         std::cout << "Order book for " << instrumentName << " is empty." << std::endl;
@@ -259,7 +296,9 @@ void fetchOrderBook(OrderManager& orderManager) {
                   << std::setw(20) << askStr 
                   << "\n";
     }
-
+    auto endTime = std::chrono::high_resolution_clock::now();
+    auto marketDataProcessingLatency = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
+    std::cout << "Market Data Processing Latency: " << marketDataProcessingLatency << "ms" << std::endl;
     UtilityNamespace::logMessage("Order book fetched successfully.");
 }
 
@@ -274,16 +313,30 @@ void printInstruments(OrderManager& orderManager) {
                   << " at offset " << parseResult.Offset() << std::endl;
         return;
     }
+    std::string inputSymbol, inputKind;
+    std::cout << "Enter the symbol (e.g., BTC, ETH): ";
+    std::cin >> inputSymbol;
+    std::cout << "Enter the kind (e.g., future, option, etc.): ";
+    std::cin >> inputKind;
+
+    bool found = false;
+    std::cout << "Instruments for symbol " << inputSymbol << " of kind " << inputKind << ":" << std::endl;
 
     if (document.HasMember("result") && document["result"].IsArray()) {
         for (const auto& instrument : document["result"].GetArray()) {
-            if (instrument.IsObject() && instrument.HasMember("instrument_name")) {
+            if (instrument.IsObject() && instrument.HasMember("instrument_name") && instrument.HasMember("kind")) {
                 std::string instrumentName = instrument["instrument_name"].GetString();
-                std::cout << instrumentName << std::endl;
+                std::string kind = instrument["kind"].GetString();
+
+                if (instrumentName.find(inputSymbol) != std::string::npos && kind == inputKind) {
+                    std::cout << instrumentName << std::endl;
+                    found = true;
+                }
             }
         }
-    } else {
-        std::cerr << "Error: Invalid JSON structure." << std::endl;
+    } 
+    if(!found) {
+        std::cout << "No instruments found for symbol " << inputSymbol << " of kind " << inputKind << std::endl;
     }
 }
 
