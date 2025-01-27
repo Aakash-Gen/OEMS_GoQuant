@@ -1,9 +1,9 @@
 # Order Execution and Management System
 
-## Overview
+## Overview 📖
 This project is a high-performance Order Execution and Management System (OEMS) designed for trading platforms. It provides a set of APIs to place, modify, cancel orders, and retrieve order book data, along with support for real-time market data streaming via WebSocket. The system is built to interface with the Deribit exchange, supporting spot, futures, and options trading.
 
-## Features
+## Features ⚙️
 
 ### Order Management Functions
 1. **Place order**: API to place a new order.
@@ -20,7 +20,11 @@ This project is a high-performance Order Execution and Management System (OEMS) 
 - **Instruments**: Spot, Futures, and Options.
 - **Scope**: All supported symbols on Deribit.
 
-## Getting Started
+
+## Documentation 📄
+Click [Here](https://docs.google.com/document/d/1sdjXQ_lyFbHNZp3i9W41u-znQdKl0I4GOIqqiq1kNlU/edit?usp=sharing) for detailed documentation.
+
+## Getting Started 🚀
 
 To get started with this project, follow the steps below:
 1. **Create an account on Deribit Test Network**
@@ -53,7 +57,7 @@ To get started with this project, follow the steps below:
    cd bin/Debug
    ./deribit_order_management.exe
 
-## Troubleshooting
+## Troubleshooting ⚠️
 
 If you encounter any issues during the build or execution, follow these steps to resolve common problems:
 
