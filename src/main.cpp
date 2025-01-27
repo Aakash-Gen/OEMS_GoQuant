@@ -305,6 +305,11 @@ void fetchOrderBook(OrderManager& orderManager) {
 void printInstruments(OrderManager& orderManager) {
     std::string instruments = orderManager.getInstruments();
     // std::cout << "Instruments JSON: " << instruments << std::endl;
+    std::string inputSymbol, inputKind;
+    std::cout << "Enter the symbol (e.g., BTC, ETH): ";
+    std::cin >> inputSymbol;
+    std::cout << "Enter the kind (e.g., future, option, etc.): ";
+    std::cin >> inputKind;
 
     rapidjson::Document document;
     rapidjson::ParseResult parseResult = document.Parse(instruments.c_str());
@@ -313,11 +318,6 @@ void printInstruments(OrderManager& orderManager) {
                   << " at offset " << parseResult.Offset() << std::endl;
         return;
     }
-    std::string inputSymbol, inputKind;
-    std::cout << "Enter the symbol (e.g., BTC, ETH): ";
-    std::cin >> inputSymbol;
-    std::cout << "Enter the kind (e.g., future, option, etc.): ";
-    std::cin >> inputKind;
 
     bool found = false;
     std::cout << "Instruments for symbol " << inputSymbol << " of kind " << inputKind << ":" << std::endl;
@@ -377,7 +377,7 @@ int main() {
                 std::cout << "Invalid input. Please enter a number between 1 and 8.\n";
                 continue;
             }
-
+            // ignore the input buffer until the newline character
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
             switch (choice) {

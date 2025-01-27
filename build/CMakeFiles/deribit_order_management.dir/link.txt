@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\deribit_order_management.dir/objects.a
+C:\compilers\mingw64\bin\ar.exe qc CMakeFiles\deribit_order_management.dir/objects.a @CMakeFiles\deribit_order_management.dir\objects1.rsp
+C:\compilers\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\deribit_order_management.dir/objects.a -Wl,--no-whole-archive -o bin\deribit_order_management.exe -Wl,--out-implib,libderibit_order_management.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\deribit_order_management.dir\linkLibs.rsp

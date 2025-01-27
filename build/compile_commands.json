@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/projects/OEMS_GoQuant/build",
+  "command": "C:\\compilers\\mingw64\\bin\\g++.exe -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_THREAD_USE_DLL @CMakeFiles/deribit_order_management.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\deribit_order_management.dir\\src\\main.cpp.obj -c D:\\projects\\OEMS_GoQuant\\src\\main.cpp",
+  "file": "D:/projects/OEMS_GoQuant/src/main.cpp",
+  "output": "CMakeFiles/deribit_order_management.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/projects/OEMS_GoQuant/build",
+  "command": "C:\\compilers\\mingw64\\bin\\g++.exe -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_THREAD_USE_DLL @CMakeFiles/deribit_order_management.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\deribit_order_management.dir\\src\\order_manager.cpp.obj -c D:\\projects\\OEMS_GoQuant\\src\\order_manager.cpp",
+  "file": "D:/projects/OEMS_GoQuant/src/order_manager.cpp",
+  "output": "CMakeFiles/deribit_order_management.dir/src/order_manager.cpp.obj"
+},
+{
+  "directory": "D:/projects/OEMS_GoQuant/build",
+  "command": "C:\\compilers\\mingw64\\bin\\g++.exe -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_THREAD_USE_DLL @CMakeFiles/deribit_order_management.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\deribit_order_management.dir\\src\\utils.cpp.obj -c D:\\projects\\OEMS_GoQuant\\src\\utils.cpp",
+  "file": "D:/projects/OEMS_GoQuant/src/utils.cpp",
+  "output": "CMakeFiles/deribit_order_management.dir/src/utils.cpp.obj"
+},
+{
+  "directory": "D:/projects/OEMS_GoQuant/build",
+  "command": "C:\\compilers\\mingw64\\bin\\g++.exe -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -DBOOST_THREAD_USE_DLL @CMakeFiles/deribit_order_management.dir/includes_CXX.rsp -g -std=gnu++17 -Wall -Wextra -pedantic -o CMakeFiles\\deribit_order_management.dir\\src\\websocket_handler.cpp.obj -c D:\\projects\\OEMS_GoQuant\\src\\websocket_handler.cpp",
+  "file": "D:/projects/OEMS_GoQuant/src/websocket_handler.cpp",
+  "output": "CMakeFiles/deribit_order_management.dir/src/websocket_handler.cpp.obj"
+}
+]

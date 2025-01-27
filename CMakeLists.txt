@@ -33,7 +33,7 @@ message(STATUS "websocketpp found: ${websocketpp_FOUND}")
 # Include directories
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-# Add the executable and source files
+# executable and source files
 add_executable(deribit_order_management
     src/main.cpp
     src/order_manager.cpp

@@ -75,12 +75,14 @@ void WebSocketHandler::run(uint16_t port) {
 
 void WebSocketHandler::handleMessage(connection_hdl hdl, server::message_ptr msg) {
     // On the server side
-    auto startTime = std::chrono::high_resolution_clock::now();
+    auto serverReceiveTime = std::chrono::high_resolution_clock::now();
+
+    // auto startTime = std::chrono::high_resolution_clock::now();
 
     std::string payload = msg->get_payload();
-    auto endTime = std::chrono::high_resolution_clock::now();
-    auto propagationDelay = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
-    std::cout << "WebSocket Message Propagation Delay: " << propagationDelay << "ms" << std::endl;
+    // auto endTime = std::chrono::high_resolution_clock::now();
+    // auto propagationDelay = std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
+    // std::cout << "WebSocket Message Propagation Delay: " << propagationDelay << "ms" << std::endl;
     rapidjson::Document doc;
     doc.Parse(payload.c_str());
 
@@ -88,7 +90,14 @@ void WebSocketHandler::handleMessage(connection_hdl hdl, server::message_ptr msg
         m_server.send(hdl, R"({"error": "Invalid message format"})", websocketpp::frame::opcode::text);
         return;
     }
+    if (doc.HasMember("timestamp") && doc["timestamp"].IsInt64()) {
+        int64_t clientTimestamp = doc["timestamp"].GetInt64();
+        auto serverReceiveTimestamp =
+            std::chrono::duration_cast<std::chrono::milliseconds>(serverReceiveTime.time_since_epoch()).count();
 
+        int64_t propagationDelay = serverReceiveTimestamp - clientTimestamp;
+        std::cout << "WebSocket Message Propagation Delay: " << propagationDelay << "ms" << std::endl;
+    }
     std::string action = doc["action"].GetString();
 
     if (action == "subscribe" && doc.HasMember("symbol")) {
