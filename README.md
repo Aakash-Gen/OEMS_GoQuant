@@ -24,7 +24,7 @@ This project is a high-performance Order Execution and Management System (OEMS) 
 ## Video Demonstration 🎥
 Click [here](https://youtu.be/Z25IhJNP2xI) for video demonstration.
 ## Documentation 📄
-Click [Here](https://docs.google.com/document/d/1sdjXQ_lyFbHNZp3i9W41u-znQdKl0I4GOIqqiq1kNlU/edit?usp=sharing) for detailed documentation.
+Click [Here](https://drive.google.com/file/d/1cINR3-5H-tVnuGMYA6xLY-8qnP4UYhfj/view?usp=sharing) for detailed documentation.
 
 ## Getting Started 🚀
 
